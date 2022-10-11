@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?background_color"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/flagExchangeRateView"
+
+                android:layout_alignParentLeft="true"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/fifty_five_dp">
+                <TextView
+                    android:id="@+id/flagExchangeRateTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:padding="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="15dp"
+                    android:layout_alignRight="@id/flagExchangeRateTV"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/dark_gray" />
+
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:id="@+id/firstCurrencyInputLayout"
+                android:layout_centerVertical="true"
+                android:textColorHint="?text_color"
+                android:layout_margin="@dimen/five_dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/choose_region"
+                android:orientation="horizontal">
+                <AutoCompleteTextView
+                    android:id="@+id/filled_exposed_dropdown_exchange_rate"
+                    android:layout_width="match_parent"
+                    android:textSize="11sp"
+                    android:inputType="none"
+                    android:paddingStart="@dimen/fifty_dp"
+                    android:layout_height="match_parent"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/exchange_RV"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:nestedScrollingEnabled="false"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/progressView"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

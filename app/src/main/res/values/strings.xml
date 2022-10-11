@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Utility</string>
+    <string name="convert">CONVERT</string>
+    <string name="enter_currency_value">Amount</string>
+    <string-array name="currency_array">
+        <item>--SELECT--</item>
+        <item>USD</item>
+        <item>AED</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>EUR</item>
+    </string-array>
+
+    <string-array name="languageArray">
+        <item>English</item>
+        <item>മലയാളം</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+
+    <array name="settingsArray">
+        <item>Enable/Disable Screenshot</item>
+        <item>Multi Language</item>
+        <item>Root Access Check</item>
+        <!--        <item>Convert to PDF</item>-->
+        <item>Currency Conversion</item>
+        <item>UI theme</item>
+    </array>
+
+    <integer-array name="iconsArray">
+        <item>@drawable/ic_action_screenshot</item>
+        <item>@drawable/ic_action_language</item>
+        <item>@drawable/ic_action_convert_root_access</item>
+        <!--        <item>@drawable/ic_action_convert_pdf</item>-->
+        <item>@drawable/ic_action_currency_convert</item>
+        <item>@drawable/ic_action_theme</item>
+    </integer-array>
+
+    <string name="safety_net_api_key" translatable="false">AIzaSyAkyhP7351ZYnEOnd29USg2VIuFUBXLWVE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_updated_on">Last <b>Updated On</b>:</string>
+    <string name="choose_region">Choose Currency</string>
+    <string name="result">Result</string>
+    <string name="screenshot_status">Status</string>
+    <string name="disable_screenshot">Disable Screenshot</string>
+    <string name="enable_screenshot">Enable Screenshot</string>
+    <string name="check_for_root_access">Check Root Access</string>
+    <string name="try_again">Try Again</string>
+    <string name="choose_your_theme_color">Choose your theme color:</string>
+    <string name="choose_your_gradient_theme_color">Choose your Gradient theme color:</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+</resources>

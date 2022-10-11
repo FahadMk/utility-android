@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="off_white">#F4EFEF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#1B633B</color>
+    <color name="orange">#FB8C00</color>
+    <color name="red">#A10505</color>
+    <color name="transparent">#0000FFFF</color>
+    <color name="transparent_50">#4DE5E7E9</color>
+    <color name="dark_purple">#320F70</color>
+    <color name="light_blue">#F3F6F8</color>
+    <color name="light_gray">#E5E7E9</color>
+    <color name="gray">#393C3E</color>
+    <color name="dark_gray">#8B8C8E</color>
+    <color name="test_color_1">#1372C5</color>
+    <color name="test_color_2">#043865</color>
+    <color name="status_bar_color">#7CB9ED</color>
+    <color name="bright_orange">#FFA500</color>
+
+    <!-- Teal Theme Colors -->
+    <color name="colorPrimaryTeal">#008577</color>
+    <color name="colorPrimaryDarkTeal">#00574B</color>
+    <color name="colorAccentTeal">#055048</color>
+
+    <!-- Cyan Theme Colors -->
+    <color name="colorPrimaryCyan">#26c6da</color>
+    <color name="colorPrimaryDarkCyan">#0095a8</color>
+    <color name="colorAccentCyan">#0095a8</color>
+
+
+    <!-- Indigo Theme Colors -->
+    <color name="colorPrimaryIndigo">#6B00BA</color>
+    <color name="colorPrimaryDarkIndigo"> #4B0082</color>
+    <color name="colorAccentIndigo">#8E53B8</color>
+
+    <!-- Orange Theme Colors -->
+    <color name="colorPrimaryOrange">#FFA500</color>
+    <color name="colorPrimaryDarkOrange">#E2FFAA00</color>
+    <color name="colorAccentOrange">#BAFFA500</color>
+
+    <!-- Blue Theme Colors -->
+    <color name="colorPrimaryBlue">#043865</color>
+    <color name="colorPrimaryDarkBlue">#044A65</color>
+    <color name="colorAccentBlue">#9A043865</color>
+
+
+    <!-- yellow Theme Colors -->
+    <color name="colorPrimaryYellow">#ffca28</color>
+    <color name="colorPrimaryDarkYellow">#D0FFDB28</color>
+    <color name="colorAccentYellow">#BFFFCA28</color>
+
+
+    <!-- Pink Theme Colors -->
+    <color name="colorPrimaryPink">#D81B60</color>
+    <color name="colorPrimaryDarkPink">#C6D81B60</color>
+    <color name="colorAccentPink">#A8D81B60</color>
+
+    <!-- Green Theme Colors -->
+    <color name="colorPrimaryGreen">#1B633B</color>
+    <color name="colorPrimaryDarkGreen">#DA1B633B</color>
+    <color name="colorAccentGreen">#A41B6333</color>
+
+</resources>

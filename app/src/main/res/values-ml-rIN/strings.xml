@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Utility</string>
+    <string name="convert">മാറ്റുക</string>
+    <string name="enter_currency_value">തുക</string>
+    <string-array name="currency_array">
+        <item>--SELECT--</item>
+        <item>USD</item>
+        <item>AED</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>EUR</item>
+    </string-array>
+
+    <string-array name="languageArray">
+        <item>English</item>
+        <item>മലയാളം</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+    <array name="settingsArray">
+        <item>Enable/Disable സ്ക്രീൻഷോട്ട്</item>
+        <item>ബഹുഭാഷ</item>
+        <item>റൂട്ട് ആക്സസ് പരിശോധന</item>
+<!--        <item>PDF-ലേക്ക് പരിവർത്തനം ചെയ്യുക</item>-->
+        <item>നാണയ പരിവര്ത്തനം</item>
+        <item>UI തീം</item>
+    </array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_updated_on">അവസാനത്തെ <b>Update ചെയ്തു</b>:</string>
+    <string name="choose_region">പ്രദേശം കറൻസി</string>
+    <string name="result">ഫലമായി</string>
+    <string name="screenshot_status">സ്ക്രീൻഷോട്ട് </string>
+    <string name="disable_screenshot">Disable സ്ക്രീൻഷോട്ട്</string>
+    <string name="enable_screenshot">Enable സ്ക്രീൻഷോട്ട്</string>
+    <string name="check_for_root_access">റൂട്ട് ആക്സസ് പരിശോധന</string>
+    <string name="try_again">വീണ്ടും ശ്രമിക്ക്</string>
+    <string name="choose_your_theme_color">നിങ്ങളുടെ theme തിരഞ്ഞെടുക്കുക:</string>
+    <string name="choose_your_gradient_theme_color">നിങ്ങളുടെ gradient theme തിരഞ്ഞെടുക്കുക:</string>
+    <string name="enable_dark_mode">Enable ഡാർക്ക് മോഡ്</string>
+</resources>

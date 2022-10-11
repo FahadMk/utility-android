@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Utility</string>
+    <string name="convert">धर्मांतरित</string>
+    <string name="enter_currency_value">राशि</string>
+    <string-array name="currency_array">
+        <item>--SELECT--</item>
+        <item>USD</item>
+        <item>AED</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>EUR</item>
+    </string-array>
+
+    <string-array name="languageArray">
+        <item>English</item>
+        <item>മലയാളം</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+    <array name="settingsArray">
+        <item>Enable/Disable स्क्रीनशॉट</item>
+        <item>बहु भाषा</item>
+        <item>रूट एक्सेस चेक</item>
+<!--        <item>PDF में कनवर्ट करें</item>-->
+        <item>मुद्रा रूपांतरण</item>
+        <item>UI विषय</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_updated_on">अंतिम <b>को Update किया</b>:</string>
+    <string name="choose_region">क्षेत्र मुद्रा</string>
+    <string name="result">नतीजा</string>
+    <string name="screenshot_status">स्क्रीनशॉट Status</string>
+    <string name="disable_screenshot">Disable स्क्रीनशॉट</string>
+    <string name="enable_screenshot">Enable स्क्रीनशॉट</string>
+    <string name="check_for_root_access">रूट एक्सेस चेकं</string>
+    <string name="try_again">पुनः प्रयास करें</string>
+    <string name="choose_your_theme_color">अपना रंग theme चुनें:</string>
+    <string name="choose_your_gradient_theme_color">अपना रंग gradient theme चुनें:</string>
+    <string name="enable_dark_mode">Enable डार्क मोड</string>
+</resources>

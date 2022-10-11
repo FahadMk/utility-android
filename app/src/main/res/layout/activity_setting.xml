@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?background_color"
+    tools:context="com.dgsl.utility_package.ui.settings.SettingActivity">
+    <ListView
+        android:id="@+id/setting_list"
+        android:layout_width="match_parent"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="@dimen/one_dp"
+        android:divider="?attr/divider_color"
+        android:layout_height="match_parent"/>
+  </LinearLayout>

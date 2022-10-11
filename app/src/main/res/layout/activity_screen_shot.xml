@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/light_gray"
+    android:layout_height="match_parent"
+    tools:context="com.dgsl.utility_package.ui.screenshot.ScreenShotActivity">
+
+  <RelativeLayout
+      android:id="@+id/notifyView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_centerInParent="true">
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_above="@id/ScreenShotLayoutView"
+      android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/screenShotStatusTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+  </RelativeLayout>
+  <LinearLayout
+      android:id="@+id/ScreenShotLayoutView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:background="@drawable/layout_side_corner"
+      android:orientation="vertical">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enableScreenshotWithinAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:layout_marginRight="@dimen/twenty_dp"
+        android:text="@string/enable_screenshot"
+        android:textAllCaps="false"
+        app:backgroundTint="@null"
+        style="?buttonStyle"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/disableScreenshotWithinAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/twenty_dp"
+        android:layout_marginBottom="@dimen/thirty_dp"
+        style="?buttonStyle"
+        app:backgroundTint="@null"
+        android:text="@string/disable_screenshot"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+
+  </RelativeLayout>

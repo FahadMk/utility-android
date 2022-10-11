@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="background_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="button_text_color" format="color"/>
+        <attr name="language_bg_color" format="color"/>
+        <attr name="root_access_bg_color" format="color"/>
+        <attr name="divider_color" format="color"/>
+    </declare-styleable>
+</resources>

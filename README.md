@@ -1,6 +1,5 @@
-<h1 align="center">Welcome to RADx Basic Package 👋</h1>
 
-> This is one of the main package of RADx, It consists of other sub-modules/features as listed below.
+> This package contain utilites, It consists of other sub-modules/features as listed below.
 
 <ul>1. Enable/Disable Screenshot</ul>
 <ul>2. Multi Language</ul>
